@@ -6,6 +6,8 @@ BEGIN TRANSACTION;
 
   SELECT * FROM animals ORDER BY id; 
 
+  SELECT species from animals;
+  
 ROLLBACK;
 
 
@@ -15,6 +17,8 @@ BEGIN TRANSACTION;
 
   UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
 
+  SELECT species from animals;
+
 COMMIT TRANSACTION;
 
 
@@ -22,7 +26,7 @@ BEGIN TRANSACTION;
 
   DELETE FROM animals;
 
-  SELECT * FROM animals ORDER BY id; 
+  SELECT COUNT(*) FROM ANIMALS;
 
 ROLLBACK;
 

@@ -19,7 +19,7 @@ INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) 
 ('Plantmon', '2021-11-15', 2,true, -5.7);
 
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES
-('Squirtle', '1992-04-02', 3,false, -12.3);
+('Squirtle', '1993-04-02', 3,false, -12.13);
 
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES
 ('Angemon', '2005-06-12', 1,true, -45);
