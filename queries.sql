@@ -22,8 +22,8 @@ WHERE vets.name='Maisy Smith'
 ORDER BY visit_date ASC LIMIT 1;
 
 SELECT animals.name, animals.date_of_birth, animals.escape_attempts, animals.neutered, animals.weight_kg, 
-vets.name, vets.age, vets.date_of_graduation
-visit_date  FROM visits INNER JOIN animals ON animal_id= animals.id
+vets.name, vets.age, vets.date_of_graduation, visit_date  
+FROM visits INNER JOIN animals ON animal_id= animals.id
 INNER JOIN vets ON vet_id=vets.id
 ORDER BY visit_date DESC LIMIT 1;
 
