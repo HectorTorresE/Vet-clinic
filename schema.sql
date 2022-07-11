@@ -59,3 +59,6 @@ CREATE TABLE visits(
   vet_id INTEGER,
   visit_date DATE
 );
+
+
+CREATE INDEX Index_animal_id ON visits (animal_id);
